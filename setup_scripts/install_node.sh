@@ -18,5 +18,6 @@ nvm install 20
 echo -e "${CYAN} Node version $(node -v)"
 echo -e "${CYAN} npm version $(npm -v)"
 
-# Install typescript
-sudo npm install -g typescript
+# Install typescript and eslint support
+sudo npm i -g typescript
+sudo npm i -g vscode-langservers-extracted
