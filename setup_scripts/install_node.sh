@@ -19,5 +19,6 @@ echo -e "${CYAN} Node version $(node -v)"
 echo -e "${CYAN} npm version $(npm -v)"
 
 # Install typescript and eslint support
-sudo npm i -g typescript
-sudo npm i -g vscode-langservers-extracted
+npm i -g typescript
+npm i -g vscode-langservers-extracted
+npm i -g @vue/language-server

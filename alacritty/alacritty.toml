@@ -2,3 +2,9 @@
 import = [
     "iris.toml"
 ]
+
+[font]
+normal.family = "BlexMono Nerd Font Mono"
+bold.family = "BlexMono Nerd Font Mono"
+italic.family = "BlexMono Nerd Font Mono"
+bold_italic.family = "BlexMono Nerd Font Mono"

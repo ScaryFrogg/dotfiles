@@ -30,6 +30,9 @@ main() {
     echo -e "${CYAN}Moving scripts to /usr/local/bin"
     sudo cp -a ./bin/. /usr/local/bin/
 
+    echo -e "${CYAN}Installing Nerd fonts"
+    install_nerd_font.sh "JetBrainsMono"
+    install_nerd_font.sh "IBMPlexMono"
 
     ### Setup PATH ###
     sudo printf "export PATH=\$PATH:/usr/sbin\n" | tee -a /etc/profile
