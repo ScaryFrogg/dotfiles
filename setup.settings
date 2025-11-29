@@ -6,9 +6,11 @@ SHELL_CONFIG_FILE="$HOME/.bash_profile"
 
 generate_ssh=true
 install_jdk=true
+install_go=true
 install_node=true
 install_utility_apts=true
 install_nvim=true
+install_glance=true
 set_shell_color_scripts=true
 
 #console log output colors (not importaint)

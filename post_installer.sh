@@ -73,6 +73,7 @@ main() {
     mkdir -p $HOME/.config/alacritty/ && cp ./alacritty/* $_
 }
 
+#run install script if set to true in setup.settings
 function script_install() {
     local var_name="$1"
     local var_value="${!var_name}"
